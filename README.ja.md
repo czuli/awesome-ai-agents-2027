@@ -771,6 +771,7 @@
 - [LangSmith Sandboxes](https://www.langchain.com/blog/interrupt-2026-overview) - **2026 年 5 月（Interrupt 2026）**。エージェント向けのホスト型セキュアコード実行環境——ファイルシステム、shell、パッケージマネージャ、永続状態、ネットワーク境界を提供。LangChain の Interrupt 2026 リリースで LangSmith Engine、Managed Deep Agents と同時に発表。
 - [Google Antigravity Sandbox](https://antigravity.google/changelog) - 🆕 **2026 年 5 月（Google I/O）**。エージェントが実行するコード用のサンドボックス化 Linux 環境。Antigravity 2.0 のスタックの一部として提供 — サブエージェントはそれぞれ、ファイルシステム + ネットワークアクセスをスコープ制限された隔離コンテナで動作。
 - [Amazon Bedrock AgentCore Runtime Instances](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/) - 🆕 **2026年8月6日 GA**。AgentCore エージェント向けの EC2 ベースの永続コンピュート — 最長 **14 日間**の長時間エージェントセッション（サーバーレス microVM の 8 時間上限に対して）。キャパシティプロバイダー経由で GPU アクセラレーテッド / メモリ最適化 / コンピュート最適化のインスタンスファミリーを提供；デプロイ / 呼び出しパスの変更は不要。ローンチ時点で 9 リージョン。
+- [Buddy Sandboxes](https://buddy.works/docs/sandboxes) - コーディングエージェント向けのマネージドクラウド Linux サンドボックス。CLI、TypeScript SDK、REST API、MCP から操作でき、スナップショットとアプリ実行用の HTTP エンドポイントを備える。商用サービス。
 
 ---
 
@@ -1397,6 +1398,7 @@
 | [Microsandbox](https://github.com/superradcompany/microsandbox) | プログラム可能なローカル microVM | セルフホスト | Apache-2.0 |
 | [SandboxFusion](https://github.com/bytedance/SandboxFusion) | 多言語コード評価 | セルフホスト。隔離を明示設定 | Apache-2.0 |
 | [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | サンドボックス API、SDK、ネットワーク制御 | Docker / Kubernetes。隔離ランタイムを選択 | Apache-2.0 |
+| [Buddy Sandboxes](https://buddy.works/docs/sandboxes) | スナップショット・エンドポイント・CLI/SDK/MCP 対応のエージェントサンドボックス | マネージドクラウド | 商用サービス |
 
 コールドスタートの一律数値は掲載しない。イメージ、リージョン、リソース、キャッシュ状態で変わる。
 
