@@ -769,6 +769,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [LangSmith Sandboxes](https://www.langchain.com/blog/interrupt-2026-overview) - **May 2026 (Interrupt 2026)**. Hosted secure code execution environments for agents — filesystem, shell, package manager, persistent state, and network boundary. Part of LangChain's Interrupt 2026 release alongside LangSmith Engine and Managed Deep Agents.
 - [Google Antigravity Sandbox](https://antigravity.google/changelog) - 🆕 **May 2026 (Google I/O)**. Sandboxed Linux environments for agent-executed code; ships as part of Antigravity 2.0's stack — sub-agents run in isolated containers with scoped filesystem + network access.
 - [Amazon Bedrock AgentCore Runtime Instances](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/) - 🆕 **GA August 6, 2026**. EC2-backed persistent compute for AgentCore agents — long-running agent sessions up to **14 days** (vs the 8-hour serverless microVM cap), with GPU-accelerated, memory-optimized, and compute-optimized instance families via capacity providers; no change to the deploy/invoke path. 9 regions at launch.
+- [Buddy Sandboxes](https://buddy.works/docs/sandboxes) - Managed cloud Linux sandboxes for coding agents, driven from a CLI, a TypeScript SDK, REST API or MCP, with snapshots and HTTP endpoints for running apps; commercial service.
 
 ---
 
@@ -1393,6 +1394,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | [Microsandbox](https://github.com/superradcompany/microsandbox) | Programmable local microVMs | Self-host | Apache-2.0 |
 | [SandboxFusion](https://github.com/bytedance/SandboxFusion) | Multi-language code evaluation | Self-host; configure isolation explicitly | Apache-2.0 |
 | [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | Sandbox APIs, SDKs, network controls | Docker / Kubernetes; selectable isolation runtime | Apache-2.0 |
+| [Buddy Sandboxes](https://buddy.works/docs/sandboxes) | Agent sandboxes with snapshots, endpoints, CLI/SDK/MCP | Managed cloud | Commercial service |
 
 Cold-start figures are omitted: results depend on image, region, resources, and warm-cache state.
 
